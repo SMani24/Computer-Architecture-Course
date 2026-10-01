@@ -1,0 +1,28 @@
+# Local technical review
+/RISC-V_CPU_TECHNICAL_REVIEW.md
+
+# ModelSim / Questa generated libraries, compile records, and logs
+/CAs/**/work/
+*.cr.mti
+modelsim.ini
+transcript
+vsim_stacktrace.vstf
+vish_stacktrace.vstf
+
+# Simulation waveforms, including ModelSim alternate WLF filenames
+*.wlf
+/CAs/**/wlft*
+*.vcd
+*.fst
+
+# Local workspace configuration
+/.agents/
+/.codex/
+/.aws/
+
+# Editor backups and OS metadata
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
