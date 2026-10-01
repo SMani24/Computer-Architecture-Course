@@ -1,0 +1,171 @@
+vsim -gui work.stacked_eight_queen_testbench
+# vsim -gui work.stacked_eight_queen_testbench 
+# Start time: 13:44:11 on Nov 11,2024
+# Loading work.stacked_eight_queen_testbench
+# Loading work.stacked_eight_queen
+# Loading work.stacked_datapath
+# Loading work.decoder
+# Loading work.multiplexer
+# Loading work.onehot_to_position_decoder
+# Loading work.stack
+# Loading work.stack_controller
+# Loading work.stack_datapath
+# Loading work.counter
+# Loading work.increamenter
+# Loading work.register
+# Loading work.is_safe
+# Loading work.abs
+# Loading work.stacked_controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'value'. The port definition is at: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/counter.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /stacked_eight_queen_testbench/eq/datapath/last_queen_stack/stack_datapath_instance/stack_counter File: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack_datapath.v Line: 31
+add wave -position insertpoint  \
+sim:/stacked_eight_queen_testbench/clk \
+sim:/stacked_eight_queen_testbench/start \
+sim:/stacked_eight_queen_testbench/user_reset \
+sim:/stacked_eight_queen_testbench/out_bus \
+sim:/stacked_eight_queen_testbench/ready \
+sim:/stacked_eight_queen_testbench/done \
+sim:/stacked_eight_queen_testbench/no_answer
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Lenovo  Hostname: DESKTOP-32OPIDI  ProcessID: 11848
+#           Attempting to use alternate WLF file "./wlft4cnjmz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4cnjmz
+add wave -position insertpoint  \
+sim:/stacked_eight_queen_testbench/eq/datapath/register_outputs
+run -all
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen_testbench.v(43)
+#    Time: 99870 ps  Iteration: 0  Instance: /stacked_eight_queen_testbench
+# Break in Module stacked_eight_queen_testbench at C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen_testbench.v line 43
+quit -sim
+# End time: 13:51:50 on Nov 11,2024, Elapsed time: 0:07:39
+# Errors: 0, Warnings: 4
+# Compile of stack.v was successful.
+# Compile of stack_controller.v was successful.
+# Compile of stack_datapath.v was successful.
+# Compile of onehot_to_position_decoder.v was successful.
+# Compile of is_safe.v was successful.
+# Compile of abs.v was successful.
+# Compile of datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of eight_queen.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of decoder.v was successful.
+# Compile of counter.v was successful.
+# Compile of eight_queen_testbench.v was successful.
+# Compile of abs_testbench.v was successful.
+# Compile of stack_testbench.v was successful.
+# Compile of register.v was successful.
+# Compile of decoder_testbench.v was successful.
+# Compile of stacked_controller.v was successful.
+# Compile of stacked_datapath.v failed with 1 errors.
+# Compile of stacked_eight_queen.v was successful.
+# Compile of increamenter.v was successful.
+# Compile of stacked_eight_queen_testbench.v was successful.
+# Compile of increamenter_testbench.v was successful.
+# 24 compiles, 1 failed with 1 error.
+# Compile of stacked_datapath.v failed with 1 errors.
+# Compile of stacked_datapath.v was successful.
+vsim -gui work.stacked_eight_queen_testbench
+# vsim -gui work.stacked_eight_queen_testbench 
+# Start time: 13:53:11 on Nov 11,2024
+# Loading work.stacked_eight_queen_testbench
+# Loading work.stacked_eight_queen
+# Loading work.stacked_datapath
+# Loading work.decoder
+# Loading work.multiplexer
+# Loading work.register
+# Loading work.onehot_to_position_decoder
+# Loading work.stack
+# Loading work.stack_controller
+# Loading work.stack_datapath
+# Loading work.counter
+# Loading work.increamenter
+# Loading work.is_safe
+# Loading work.abs
+# Loading work.stacked_controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'bus_in'. The port definition is at: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/register.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /stacked_eight_queen_testbench/eq/datapath/r0 File: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_datapath.v Line: 109
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'value'. The port definition is at: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/counter.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /stacked_eight_queen_testbench/eq/datapath/last_queen_stack/stack_datapath_instance/stack_counter File: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack_datapath.v Line: 31
+add wave -position insertpoint  \
+sim:/stacked_eight_queen_testbench/clk \
+sim:/stacked_eight_queen_testbench/start \
+sim:/stacked_eight_queen_testbench/user_reset \
+sim:/stacked_eight_queen_testbench/out_bus \
+sim:/stacked_eight_queen_testbench/ready \
+sim:/stacked_eight_queen_testbench/done \
+sim:/stacked_eight_queen_testbench/no_answer
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Lenovo  Hostname: DESKTOP-32OPIDI  ProcessID: 11848
+#           Attempting to use alternate WLF file "./wlftajncn0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftajncn0
+run -all
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen_testbench.v(43)
+#    Time: 99870 ps  Iteration: 0  Instance: /stacked_eight_queen_testbench
+# Break in Module stacked_eight_queen_testbench at C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen_testbench.v line 43
+add wave -position insertpoint  \
+sim:/stacked_eight_queen_testbench/eq/datapath/register_outputs
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'bus_in'. The port definition is at: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/register.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /stacked_eight_queen_testbench/eq/datapath/r0 File: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_datapath.v Line: 109
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'value'. The port definition is at: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/counter.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /stacked_eight_queen_testbench/eq/datapath/last_queen_stack/stack_datapath_instance/stack_counter File: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack_datapath.v Line: 31
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen_testbench.v(43)
+#    Time: 99870 ps  Iteration: 0  Instance: /stacked_eight_queen_testbench
+# Break in Module stacked_eight_queen_testbench at C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen_testbench.v line 43
+quit -sim
+# End time: 13:58:24 on Nov 11,2024, Elapsed time: 0:05:13
+# Errors: 0, Warnings: 3
+# Compile of stacked_datapath.v was successful.
+# Load canceled
+vsim -gui work.stacked_eight_queen_testbench
+# vsim -gui work.stacked_eight_queen_testbench 
+# Start time: 13:58:40 on Nov 11,2024
+# Loading work.stacked_eight_queen_testbench
+# Loading work.stacked_eight_queen
+# Loading work.stacked_datapath
+# Loading work.decoder
+# Loading work.multiplexer
+# Loading work.register
+# Loading work.onehot_to_position_decoder
+# Loading work.stack
+# Loading work.stack_controller
+# Loading work.stack_datapath
+# Loading work.counter
+# Loading work.increamenter
+# Loading work.is_safe
+# Loading work.abs
+# Loading work.stacked_controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'bus_in'. The port definition is at: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/register.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /stacked_eight_queen_testbench/eq/datapath/r0 File: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_datapath.v Line: 109
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'value'. The port definition is at: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/counter.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /stacked_eight_queen_testbench/eq/datapath/last_queen_stack/stack_datapath_instance/stack_counter File: C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack_datapath.v Line: 31
+add wave -position insertpoint  \
+sim:/stacked_eight_queen_testbench/clk \
+sim:/stacked_eight_queen_testbench/start \
+sim:/stacked_eight_queen_testbench/user_reset \
+sim:/stacked_eight_queen_testbench/out_bus \
+sim:/stacked_eight_queen_testbench/ready \
+sim:/stacked_eight_queen_testbench/done \
+sim:/stacked_eight_queen_testbench/no_answer
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Lenovo  Hostname: DESKTOP-32OPIDI  ProcessID: 11848
+#           Attempting to use alternate WLF file "./wlft58m86m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft58m86m
+add wave -position insertpoint  \
+sim:/stacked_eight_queen_testbench/eq/datapath/register_outputs
+run -all
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen_testbench.v(43)
+#    Time: 99870 ps  Iteration: 0  Instance: /stacked_eight_queen_testbench
+# Break in Module stacked_eight_queen_testbench at C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen_testbench.v line 43
+# End time: 13:59:38 on Nov 11,2024, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 6

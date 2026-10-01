@@ -1,0 +1,448 @@
+vsim -gui work.riscv_pipeline_testbench
+# vsim -gui work.riscv_pipeline_testbench 
+# Start time: 09:52:55 on Jan 08,2025
+# Loading work.riscv_pipeline_testbench
+# Loading work.riscv_pipeline
+# Loading work.controller
+# Loading work.single_cycle_controller
+# Loading work.controller_main
+# Loading work.controller_alu
+# Loading work.controlled_register
+# Loading work.datapath
+# Loading work.multiplexer
+# Loading work.rom
+# Loading work.adder
+# Loading work.register_file
+# Loading work.immediate_extender
+# Loading work.alu
+# Loading work.memory
+# Loading work.hazard_uint
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'riscv_pipeline_controller'.  Expected 17, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_pipeline_testbench/rp/riscv_pipeline_controller File: C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v Line: 36
+# ** Warning: (vsim-3722) C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v(36): [TFMPC] - Missing connection for port 'ResultSrcE'.
+# ** Warning: (vsim-3722) C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v(36): [TFMPC] - Missing connection for port 'RegWriteM'.
+# ** Error (suppressible): (vsim-3389) Port 'RegWriteM' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_pipeline_testbench/rp/riscv_pipeline_datapath File: C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v Line: 54
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ResultSrcE'. The port definition is at: C:/Repos/computer-architecture/CAs/CA4/pipeline/code/hazard_unit.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_pipeline_testbench/rp/riscv_pipeline_hazard_unit File: C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v Line: 86
+# Error loading design
+# End time: 09:52:56 on Jan 08,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 5
+vsim -gui work.riscv_pipeline_testbench
+# vsim -gui work.riscv_pipeline_testbench 
+# Start time: 09:53:15 on Jan 08,2025
+# Loading work.riscv_pipeline_testbench
+# Loading work.riscv_pipeline
+# Loading work.controller
+# Loading work.single_cycle_controller
+# Loading work.controller_main
+# Loading work.controller_alu
+# Loading work.controlled_register
+# Loading work.datapath
+# Loading work.multiplexer
+# Loading work.rom
+# Loading work.adder
+# Loading work.register_file
+# Loading work.immediate_extender
+# Loading work.alu
+# Loading work.memory
+# Loading work.hazard_uint
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'riscv_pipeline_controller'.  Expected 17, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_pipeline_testbench/rp/riscv_pipeline_controller File: C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v Line: 36
+# ** Warning: (vsim-3722) C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v(36): [TFMPC] - Missing connection for port 'ResultSrcE'.
+# ** Warning: (vsim-3722) C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v(36): [TFMPC] - Missing connection for port 'RegWriteM'.
+# ** Error (suppressible): (vsim-3389) Port 'RegWriteM' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_pipeline_testbench/rp/riscv_pipeline_datapath File: C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v Line: 54
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ResultSrcE'. The port definition is at: C:/Repos/computer-architecture/CAs/CA4/pipeline/code/hazard_unit.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_pipeline_testbench/rp/riscv_pipeline_hazard_unit File: C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v Line: 86
+# Error loading design
+# End time: 09:53:15 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of immediate_extender.v was successful.
+# Compile of memory.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of register_file.v was successful.
+# Compile of register.v was successful.
+# Compile of rom.v was successful.
+# Compile of datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of controller_main.v was successful.
+# Compile of single_cycle_controller.v was successful.
+# Compile of hazard_unit.v was successful.
+# Compile of riscv_pipeline.v was successful.
+# Compile of controller_alu.v was successful.
+# Compile of controlled_register.v was successful.
+# Compile of riscv_pipeline_testbench.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.riscv_pipeline_testbench
+# vsim -gui work.riscv_pipeline_testbench 
+# Start time: 09:58:34 on Jan 08,2025
+# Loading work.riscv_pipeline_testbench
+# Loading work.riscv_pipeline
+# Loading work.controller
+# Loading work.single_cycle_controller
+# Loading work.controller_main
+# Loading work.controller_alu
+# Loading work.controlled_register
+# Loading work.datapath
+# Loading work.multiplexer
+# Loading work.rom
+# Loading work.adder
+# Loading work.register_file
+# Loading work.immediate_extender
+# Loading work.alu
+# Loading work.memory
+# Loading work.hazard_uint
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'riscv_pipeline_controller'.  Expected 17, found 16.
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_pipeline_testbench/rp/riscv_pipeline_controller File: C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v Line: 36
+# ** Warning: (vsim-3722) C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v(36): [TFMPC] - Missing connection for port 'RegWriteM'.
+# ** Error (suppressible): (vsim-3389) Port 'RegWriteM' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /riscv_pipeline_testbench/rp/riscv_pipeline_datapath File: C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v Line: 55
+# Error loading design
+# End time: 09:58:34 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 4
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of immediate_extender.v was successful.
+# Compile of memory.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of register_file.v was successful.
+# Compile of register.v was successful.
+# Compile of rom.v was successful.
+# Compile of datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of controller_main.v was successful.
+# Compile of single_cycle_controller.v was successful.
+# Compile of hazard_unit.v was successful.
+# Compile of riscv_pipeline.v was successful.
+# Compile of controller_alu.v was successful.
+# Compile of controlled_register.v was successful.
+# Compile of riscv_pipeline_testbench.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.riscv_pipeline_testbench
+# vsim -gui work.riscv_pipeline_testbench 
+# Start time: 10:02:04 on Jan 08,2025
+# Loading work.riscv_pipeline_testbench
+# Loading work.riscv_pipeline
+# Loading work.controller
+# Loading work.single_cycle_controller
+# Loading work.controller_main
+# Loading work.controller_alu
+# Loading work.controlled_register
+# Loading work.datapath
+# Loading work.multiplexer
+# Loading work.rom
+# Loading work.adder
+# Loading work.register_file
+# Loading work.immediate_extender
+# Loading work.alu
+# Loading work.memory
+# Loading work.hazard_uint
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/clk \
+sim:/riscv_pipeline_testbench/reset
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Lenovo  Hostname: DESKTOP-32OPIDI  ProcessID: 6904
+#           Attempting to use alternate WLF file "./wlftcyv057".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftcyv057
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_datapath/rf/register_file_data
+run -all
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+# Load canceled
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_datapath/ALUResultE
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_datapath/SrcAE
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_datapath/SrcBE
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_datapath/ALUControlE
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_datapath/SrcAE_mux_inputs
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_datapath/WriteDataE_mux_inputs
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_datapath/RD1E \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_datapath/RD2E
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_hazard_unit/ForwardAE \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_hazard_unit/ForwardBE
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of immediate_extender.v was successful.
+# Compile of memory.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of register_file.v was successful.
+# Compile of register.v was successful.
+# Compile of rom.v was successful.
+# Compile of datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of controller_main.v was successful.
+# Compile of single_cycle_controller.v was successful.
+# Compile of hazard_unit.v was successful.
+restart -f
+# Loading work.controller
+# Loading work.single_cycle_controller
+# Loading work.controller_main
+# Loading work.datapath
+# Loading work.multiplexer
+# Loading work.rom
+# Loading work.adder
+# Loading work.register_file
+# Loading work.immediate_extender
+# Loading work.alu
+# Loading work.memory
+# Loading work.hazard_uint
+# Compile of riscv_pipeline.v was successful.
+# Compile of controller_alu.v was successful.
+# Compile of controlled_register.v was successful.
+# Compile of riscv_pipeline_testbench.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscv_pipeline_testbench
+# Loading work.riscv_pipeline
+# Loading work.controller_alu
+# Loading work.controlled_register
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of immediate_extender.v was successful.
+# Compile of memory.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of register_file.v was successful.
+# Compile of register.v was successful.
+# Compile of rom.v was successful.
+# Compile of datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of controller_main.v was successful.
+# Compile of single_cycle_controller.v was successful.
+# Compile of hazard_unit.v was successful.
+# Compile of riscv_pipeline.v was successful.
+# Compile of controller_alu.v was successful.
+# Compile of controlled_register.v was successful.
+# Compile of riscv_pipeline_testbench.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscv_pipeline_testbench
+# Loading work.riscv_pipeline
+# Loading work.controller
+# Loading work.single_cycle_controller
+# Loading work.controller_main
+# Loading work.controller_alu
+# Loading work.controlled_register
+# Loading work.datapath
+# Loading work.multiplexer
+# Loading work.rom
+# Loading work.adder
+# Loading work.register_file
+# Loading work.immediate_extender
+# Loading work.alu
+# Loading work.memory
+# Loading work.hazard_uint
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+quit -sim
+# End time: 11:27:01 on Jan 08,2025, Elapsed time: 1:24:57
+# Errors: 0, Warnings: 1
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of immediate_extender.v was successful.
+# Compile of memory.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of register_file.v was successful.
+# Compile of register.v was successful.
+# Compile of rom.v was successful.
+# Compile of datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of controller_main.v was successful.
+# Compile of single_cycle_controller.v was successful.
+# Compile of hazard_unit.v was successful.
+# Compile of riscv_pipeline.v was successful.
+# Compile of controller_alu.v was successful.
+# Compile of controlled_register.v was successful.
+# Compile of riscv_pipeline_testbench.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.riscv_pipeline_testbench
+# vsim -gui work.riscv_pipeline_testbench 
+# Start time: 11:27:19 on Jan 08,2025
+# Loading work.riscv_pipeline_testbench
+# Loading work.riscv_pipeline
+# Loading work.controller
+# Loading work.single_cycle_controller
+# Loading work.controller_main
+# Loading work.controller_alu
+# Loading work.controlled_register
+# Loading work.datapath
+# Loading work.multiplexer
+# Loading work.rom
+# Loading work.adder
+# Loading work.register_file
+# Loading work.immediate_extender
+# Loading work.alu
+# Loading work.memory
+# Loading work.hazard_uint
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/clk \
+sim:/riscv_pipeline_testbench/reset
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Lenovo  Hostname: DESKTOP-32OPIDI  ProcessID: 6904
+#           Attempting to use alternate WLF file "./wlftiezwfc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftiezwfc
+add wave -position insertpoint  \
+sim:/riscv_pipeline_testbench/rp/riscv_pipeline_datapath/rf/register_file_data
+run -all
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v(21)
+#    Time: 4650 ps  Iteration: 0  Instance: /riscv_pipeline_testbench
+# Break in Module riscv_pipeline_testbench at C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v line 21
+# End time: 11:33:42 on Jan 08,2025, Elapsed time: 0:06:23
+# Errors: 0, Warnings: 1

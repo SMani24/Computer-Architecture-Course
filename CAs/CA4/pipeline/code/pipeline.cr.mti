@@ -1,0 +1,120 @@
+C:/Repos/computer-architecture/CAs/CA4/pipeline/code/rom.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/rom.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/datapath.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/controller_main.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/controller_main.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller_main
+
+Top level modules:
+	controller_main
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/adder.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/hazard_unit.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/hazard_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module hazard_uint
+
+Top level modules:
+	hazard_uint
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/memory.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/controller_alu.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/controller_alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller_alu
+
+Top level modules:
+	controller_alu
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/register.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/immediate_extender.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/immediate_extender.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module immediate_extender
+
+Top level modules:
+	immediate_extender
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/controlled_register.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/controlled_register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controlled_register
+
+Top level modules:
+	controlled_register
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/alu.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/multiplexer.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/multiplexer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplexer
+
+Top level modules:
+	multiplexer
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module riscv_pipeline_testbench
+
+Top level modules:
+	riscv_pipeline_testbench
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/riscv_pipeline.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module riscv_pipeline
+
+Top level modules:
+	riscv_pipeline
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/single_cycle_controller.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/single_cycle_controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module single_cycle_controller
+
+Top level modules:
+	single_cycle_controller
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/register_file.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/register_file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} C:/Repos/computer-architecture/CAs/CA4/pipeline/code/controller.v {1 {vlog -work work -stats=none C:/Repos/computer-architecture/CAs/CA4/pipeline/code/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}}

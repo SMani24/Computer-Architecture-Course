@@ -1,0 +1,165 @@
+C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_controller.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stacked_controller
+
+Top level modules:
+	stacked_controller
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/shift_register.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/shift_register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register
+
+Top level modules:
+	shift_register
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/is_safe.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/is_safe.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module is_safe
+
+Top level modules:
+	is_safe
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_datapath.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stacked_datapath
+
+Top level modules:
+	stacked_datapath
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack_testbench.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stack_testbench
+
+Top level modules:
+	stack_testbench
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/decoder_testbench.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/decoder_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder_testbench
+
+Top level modules:
+	decoder_testbench
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/eight_queen_testbench.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/eight_queen_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module eight_queen_testbench
+
+Top level modules:
+	eight_queen_testbench
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/register.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/decoder.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stack
+
+Top level modules:
+	stack
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/eight_queen.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/eight_queen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module eight_queen
+
+Top level modules:
+	eight_queen
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/counter.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/onehot_to_position_decoder.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/onehot_to_position_decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module onehot_to_position_decoder
+
+Top level modules:
+	onehot_to_position_decoder
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack_controller.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack_controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stack_controller
+
+Top level modules:
+	stack_controller
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen_testbench.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stacked_eight_queen_testbench
+
+Top level modules:
+	stacked_eight_queen_testbench
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/multiplexer.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/multiplexer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplexer
+
+Top level modules:
+	multiplexer
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/increamenter_testbench.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/increamenter_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack_datapath.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stack_datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stack_datapath
+
+Top level modules:
+	stack_datapath
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/controller.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/stacked_eight_queen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stacked_eight_queen
+
+Top level modules:
+	stacked_eight_queen
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/increamenter.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/increamenter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module increamenter
+
+Top level modules:
+	increamenter
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/abs_testbench.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/abs_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module abs_testbench
+
+Top level modules:
+	abs_testbench
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/abs.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/abs.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module abs
+
+Top level modules:
+	abs
+
+} {} {}} C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/datapath.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/T5/ComputerArchitecture/computer-architecture/8Queen/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}}
