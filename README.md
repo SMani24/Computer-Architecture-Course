@@ -110,7 +110,6 @@ Use the corresponding directory and testbench from the table for CA2/CA3. Compil
 
 Run from the selected `code` directory so the relative `instructions.hex` path resolves correctly. The testbench supplies clock/reset stimulus and stops after a fixed interval. Inspect internal registers and memory in the Wave window; these benches do not automatically assert expected outputs or print a functional pass/fail result.
 
-No source `timescale` is declared in the CPU benches. Their clock comments say 10 ns, while historical runs display ps; delay units depend on simulator settings. Set an explicit compile timescale when reproducing a run and record it. Simulator stimulus timing is not evidence of an achieved hardware clock frequency. The example commands above have not been rerun as part of the repository documentation update.
 
 ### Selecting a program
 
@@ -130,23 +129,4 @@ This replaces the active image. Restart/reload the simulation so the ROM initial
 | `all_instructions.s` / `.hex` | Directed exercise of the implemented subset, with some expected values annotated in comments. It is not an exhaustive ISA test suite. |
 | CA2 `bubble_sort.s` / `.hex` | Twenty-element sorting program with an expected sequence in comments. It uses `BGE`, which these CPUs do not implement, so its inclusion does not demonstrate successful execution on this HDL. |
 
-Submission screenshots show minimum-finding results of **−32** in x9 for CA2–CA4; CA3/CA4 also show the 1337 marker. Historical logs record successful compilation and runs to the timed testbench stop. These are specific documented observations rather than automated regression results or comprehensive correctness evidence.
 
-For the preserved screenshots and diagrams, see the [CA2 report](CAs/CA2/CA2_REPORT.pdf), [CA3 report](CAs/CA3/CA3_810801080_810801055.pdf), and [CA4 report](CAs/CA4/CA4_810801080_810801055.pdf). CA2/CA3's extracted transcript files are empty; their submission ZIPs retain the historical logs.
-
-## Known limitations and version differences
-
-- **CA2 minimum input mismatch:** the extracted `min.s` and active `code/instructions.hex` substitute 0 for −32, making the mathematical minimum −30. `assemblies/min.hex`, the archived submission, the expected-value comment, and report still use −32.
-- **Partial JALR semantics:** CA2/CA4 select the target calculation instead of PC+4 for link writeback. All three versions omit target bit-0 clearing. CA4's JALR target base also bypasses operand forwarding.
-- **Pipeline load-use flushing:** `hazard_unit.v` assigns `FlushE` in two combinational blocks. The E-stage control registers clear on `FlushD` rather than the load-use `FlushE`, so a harmless load-use bubble is not reliably established.
-- **Pipeline forwarding and branch decode:** the Memory-stage bypass supplies only the ALU result, which is incorrect for an immediately consumed LUI value. The main decoder reads branch `funct3` but has an opcode-only sensitivity list, creating a stale-decode risk for consecutive BEQ/BNE instructions in simulation.
-- **Zero-register and control-input handling:** register files combine a continuous x0-zero assignment with procedural array writes that do not reject destination 0. CA4 also leaves some clear inputs undriven/open. These require verification for the intended simulator and synthesis flow.
-- **Simplified memory and verification:** memories implement full-word accesses without alignment exceptions, bounds checking, or an external bus protocol. CPU benches are stimulus-only; no synthesis, FPGA deployment, coverage, or measured performance results are established by the included artifacts.
-
-These sources preserve course-assignment implementations with their historical limitations. They should be examined and tested before being used as a reference CPU.
-
-## Generated files
-
-The `.gitignore` excludes newly generated simulator libraries, compile records, logs, waveform outputs, and the local `RISC-V_CPU_TECHNICAL_REVIEW.md` report. Source HDL, assembly/hex inputs, ModelSim project files, assignment documents, and submission archives remain eligible for version control.
-
-Some generated artifacts were already committed in the original snapshot. Ignore rules do not remove those tracked files; they remain preserved as historical evidence.
